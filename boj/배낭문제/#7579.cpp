@@ -14,7 +14,7 @@ void sync(){
 }
 
 void debug() {
-  for(int i=0; i<=10001; i++)
+  for(int i=0; i<=1000; i++)
     cout << DP[i] << ' ';
 }
 
