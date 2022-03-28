@@ -1,8 +1,3 @@
-def changeNickname(answer, people, uid, new_nickname):
-    for i in range(1, len(people[uid])):
-        answer[people[uid][i]] = f"{new_nickname}님이 {answer[people[uid][i]].split(' ')[1]}"
-
-
 def solution(record):
     answer = []
     people = {}
